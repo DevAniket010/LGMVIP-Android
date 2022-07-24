@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    tools:context=" .MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/state"
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="State Name"
+                    android:textColor="#C50A26"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/confirmed"
+                        android:layout_width="107dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:text="Confirmed: "
+                        android:textColor="#D212F3"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/conNo"
+                        android:layout_width="72dp"
+                        android:layout_height="wrap_content"
+                        android:text="2323223 "
+                        android:textColor="#9C27B0"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Deaths"
+                        android:layout_width="107dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:text="Deaths: "
+                        android:textColor="#090909"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/DeaNo"
+                        android:layout_width="72dp"
+                        android:layout_height="wrap_content"
+                        android:text="2323223 "
+                        android:textColor="#0B0A0A"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/recovered"
+                        android:layout_width="107dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:text="Recovered: "
+                        android:textColor="#4CAF50"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/RecNo"
+                        android:layout_width="72dp"
+                        android:layout_height="match_parent"
+                        android:text="2323223 "
+                        android:textColor="#4CAF50"
+                        android:textStyle="bold" />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Total"
+                        android:layout_width="107dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:text="Total: "
+                        android:textColor="#03A9F4"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/total"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2323223 "
+                        android:textColor="#03A9F4"
+                        android:textColorHighlight="#2196F3"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="391dp"
+        android:layout_height="6dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="20dp" />
+
+</RelativeLayout>
