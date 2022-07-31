@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "504519156861",
+    "project_id": "lgmfd-38a15",
+    "storage_bucket": "lgmfd-38a15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504519156861:android:8d3451306f0489c41c7d14",
+        "android_client_info": {
+          "package_name": "com.example.lgmfaceditector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504519156861-c2ql9q1qc8401hkf99uftmskdlal3kbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADUjjma2sIa1VP7E2U179j8quuzUsTVzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504519156861-c2ql9q1qc8401hkf99uftmskdlal3kbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
